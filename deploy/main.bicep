@@ -25,7 +25,6 @@ var hubName = 'readings'
 var keyVaultName = '${applicationName}kv'
 var keyVaultSku = 'standard'
 var logAnalyticsWorkspaceName = '${applicationName}law'
-var loadTestingName = '${applicationName}load'
 
 module logAnalytics 'modules/logAnalytics.bicep' = {
   name: 'logAnalytics'
