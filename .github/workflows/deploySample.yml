@@ -1,4 +1,4 @@
-name: Deploy Event Driven Sample
+name: Deploy Event Driven Sample 2
 
 env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'
