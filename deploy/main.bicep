@@ -146,11 +146,3 @@ resource accessPolicies 'Microsoft.KeyVault/vaults/accessPolicies@2021-11-01-pre
     ]
   }
 }
-
-resource loadTesting 'Microsoft.LoadTestService/loadTests@2022-04-15-preview' = {
-  name: loadTestingName
-  location: location
-  identity: {
-    type: 'SystemAssigned'
-  } 
-}
